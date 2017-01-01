@@ -1,3 +1,6 @@
 os: osx
 osx_image: xcode8
 language: objective-c
+xcode_project: SwiftTemplateFramework.xcworkspace
+xcode_scheme: SwiftTemplateFramework
+xcode_sdk: iphonesimulator10.1
