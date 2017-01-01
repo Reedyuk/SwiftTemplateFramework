@@ -9,7 +9,7 @@ This project uses cocoapods, pod install.
 ## Usage
 
 Add to your current project pod file, 
-pod 'SwiftTemplateFramework', :git => 'https://github.com/Reedyuk/SwiftTemplateFramework.git'
+`pod 'SwiftTemplateFramework', :git => 'https://github.com/Reedyuk/SwiftTemplateFramework.git'`
 
 ## Contributing
 
