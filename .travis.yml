@@ -5,5 +5,5 @@ xcode_workspace: SwiftTemplateFramework.xcworkspace
 xcode_scheme: SwiftTemplateFramework
 xcode_sdk: iphonesimulator10.1
 script: 
-  - xctool -workspace SwiftTemplateFramework.xcworkspace -scheme SwiftTemplateFramework -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
-  - xctool test -workspace SwiftTemplateFramework.xcworkspace -scheme SwiftTemplateFrameworkTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -workspace SwiftTemplateFramework.xcworkspace -scheme SwiftTemplateFramework -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild test -workspace SwiftTemplateFramework.xcworkspace -scheme SwiftTemplateFramework -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.1'
