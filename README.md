@@ -23,3 +23,7 @@ Add to your current project pod file,
 ## Credits
 
 Andrew Reed - andrew_reed@hotmail.com
+
+## TODO:
+
+- Create example project using the framework.
