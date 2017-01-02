@@ -1,3 +1,9 @@
 os: osx
-osx_image: xcode8
+osx_image: xcode8.2
 language: objective-c
+xcode_workspace: SwiftTemplateFramework.xcworkspace
+xcode_scheme: SwiftTemplateFramework
+xcode_sdk: iphonesimulator10.1
+script: 
+  - xcodebuild -workspace SwiftTemplateFramework.xcworkspace -scheme SwiftTemplateFramework -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild test -workspace SwiftTemplateFramework.xcworkspace -scheme SwiftTemplateFramework -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.1'
