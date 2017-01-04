@@ -26,6 +26,12 @@ Then simply make a 'service' class which deals with the endpoint, e.g. userServi
 
 `NetworkRequestAdapter.performRequest(path: "/questions", onSuccess: onSuccess, onFailure: onFailure)`
 
+## Examples
+
+This repo includes a [simple network example project](https://github.com/Reedyuk/SwiftTemplateFramework/tree/master/Examples/SimpleNetworkExample). To download the example project, install its dependencies, and run it locally.
+
+`pod install`
+
 ## Contributing
 
 1. Fork it!
