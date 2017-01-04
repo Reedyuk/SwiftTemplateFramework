@@ -1,4 +1,4 @@
-# SwiftTemplateFramework
+# SwiftTemplateFramework   [![Build Status](https://travis-ci.org/Reedyuk/SwiftTemplateFramework.svg?branch=master)](https://travis-ci.org/Reedyuk/SwiftTemplateFramework)
 
 A template framework that handles network requests in a generic way. Why? The idea is to remove your project dependencies on a single networking library. This project should allow the switching of network libraries, currently it support Siesta, but should be able to support many other libraries and keep the same interface.
 
