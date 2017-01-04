@@ -96,7 +96,11 @@ public class NetworkRequestAdapter: ResourceObserver {
         let completedRequest = resource.load(using: request)
         completedRequest.onSuccess { (entity) in
                 if let block = onSuccess {
-                    block(entity.jsonDict)
+                    if entity.jsonArray.count > 0 {
+                        block(["path": entity.jsonArray])
+                    } else {
+                        block(entity.jsonDict)
+                    }
                 }
             }.onNotModified {
                 if let block = onSuccess {

@@ -1,6 +1,7 @@
 excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Carthage
   - Pods
+  - Examples
 line_length: 150
 file_length: 500
 # they can set both implicitly with an array

@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Urls.changeLocalConfig(newLocalConfig: [.all: "https://private-6c507-swifttemplateframework.apiary-mock.com"])
         NetworkRequestAdapter.sharedInstance.createNewInstancesOfServices(networkRequestAdapterDelegate: nil)
         return true
     }

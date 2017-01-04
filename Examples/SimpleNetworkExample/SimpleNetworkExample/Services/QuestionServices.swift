@@ -13,7 +13,7 @@ class QuestionService: NetworkService {
 
     public static func getQuestions(onSuccess: @escaping (_ data: [String: Any]?) -> (),
                                     onFailure: @escaping (_ error: NetworkRequestError) -> ()) {
-        NetworkRequestAdapter.performRequest(path: "https://private-6c507-swifttemplateframework.apiary-mock.com/questions",
+        NetworkRequestAdapter.performRequest(path: "/questions",
                                              onSuccess: onSuccess,
                                              onFailure: onFailure)
     }
