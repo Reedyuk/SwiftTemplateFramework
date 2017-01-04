@@ -1,0 +1,26 @@
+PODS:
+  - Siesta/Core (1.0-rc.3)
+  - Siesta/UI (1.0-rc.3):
+    - Siesta/Core
+  - SwiftTemplateFramework (1.0.0):
+    - Siesta/UI (= 1.0-rc.3)
+
+DEPENDENCIES:
+  - SwiftTemplateFramework (from `https://github.com/Reedyuk/SwiftTemplateFramework.git`)
+
+EXTERNAL SOURCES:
+  SwiftTemplateFramework:
+    :git: https://github.com/Reedyuk/SwiftTemplateFramework.git
+
+CHECKOUT OPTIONS:
+  SwiftTemplateFramework:
+    :commit: def5fcaf8a28d5a23c22f8d35e08f71e8df786ca
+    :git: https://github.com/Reedyuk/SwiftTemplateFramework.git
+
+SPEC CHECKSUMS:
+  Siesta: 9231dea8a0175a959063ffad15bac1a3dcf34f9d
+  SwiftTemplateFramework: b17fc72d19a0b18a2a9883690c868c95cc114f6e
+
+PODFILE CHECKSUM: 31b3d2b998ce9c002f3faba5dae50dac9b94ed03
+
+COCOAPODS: 1.1.1
