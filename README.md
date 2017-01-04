@@ -14,6 +14,15 @@ Add to your current project pod file,
 
 `pod 'SwiftTemplateFramework', :git => 'https://github.com/Reedyuk/SwiftTemplateFramework.git'`
 
+Initialise the network layer in your appDelegate method 'didFinishLaunchingWithOptions'
+
+`Urls.changeLocalConfig(newLocalConfig: [.all: "https://google.com"])
+NetworkRequestAdapter.sharedInstance.createNewInstancesOfServices(networkRequestAdapterDelegate: nil)`
+
+Then simply make a 'service' class which deals with the endpoint, e.g. userService, then you can make simple requests with one line calls:
+
+`NetworkRequestAdapter.performRequest(path: "/questions", onSuccess: onSuccess, onFailure: onFailure)`
+
 ## Contributing
 
 1. Fork it!
