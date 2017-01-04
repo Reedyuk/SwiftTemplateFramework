@@ -1,6 +1,8 @@
 # SwiftTemplateFramework
 
-A template framework that handles network requests.
+A template framework that handles network requests in a generic way. Why? The idea is to remove your project dependencies on a single networking library. This project should allow the switching of network libraries, currently it support Siesta, but should be able to support many other libraries and keep the same interface.
+
+This library is also a good example on how to move your common code into a seperate library, this way you can share this with many projects, maybe you decide to make a seperate iPad project? maybe just another project that uses the same api's, this way you can keep the logic in one place and share it.
 
 ## Installation
 
