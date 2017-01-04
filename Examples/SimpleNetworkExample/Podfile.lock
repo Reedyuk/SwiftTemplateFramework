@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SwiftTemplateFramework:
-    :commit: def5fcaf8a28d5a23c22f8d35e08f71e8df786ca
+    :commit: 9cb1542be92061634be0f08cea5d61fd25cd8d86
     :git: https://github.com/Reedyuk/SwiftTemplateFramework.git
 
 SPEC CHECKSUMS:
