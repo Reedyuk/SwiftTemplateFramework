@@ -1,4 +1,4 @@
-# SwiftTemplateFramework   [![Build Status](https://travis-ci.org/Reedyuk/SwiftTemplateFramework.svg?branch=master)](https://travis-ci.org/Reedyuk/SwiftTemplateFramework) [![Version](https://img.shields.io/github/tag/Reedyuk/SwiftTemplateFramework.svg?label=version)](https://github.com/Reedyuk/SwiftTemplateFramework/releases) [![Platforms](https://img.shields.io/badge/Platforms-iOS%20-f6b854.svg)](https://github.com/Reedyuk/SwiftTemplateFramework#installation)
+# SwiftTemplateFramework   [![Build Status](https://travis-ci.org/Reedyuk/SwiftTemplateFramework.svg?branch=master)](https://travis-ci.org/Reedyuk/SwiftTemplateFramework) [![Version](https://img.shields.io/github/tag/Reedyuk/SwiftTemplateFramework.svg?label=version)](https://github.com/Reedyuk/SwiftTemplateFramework/releases) [![Platforms](https://img.shields.io/badge/Platforms-iOS%20-f6b854.svg)](https://github.com/Reedyuk/SwiftTemplateFramework#installation) ![Xcode 8.2+](https://img.shields.io/badge/Xcode-8.2%2B-blue.svg) ![Swift 3.0+](https://img.shields.io/badge/Swift-3.0%2B-orange.svg)
 
 * **OS:** iOS 10+
 * **Languages:** Written in Swift, supports apps in both Swift and Objective-C
