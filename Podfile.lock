@@ -1,14 +1,14 @@
 PODS:
-  - Siesta/Core (1.0-rc.3)
-  - Siesta/UI (1.0-rc.3):
+  - Siesta/Core (1.0.1)
+  - Siesta/UI (1.0.1):
     - Siesta/Core
 
 DEPENDENCIES:
-  - Siesta/UI (= 1.0-rc.3)
+  - Siesta/UI
 
 SPEC CHECKSUMS:
-  Siesta: 9231dea8a0175a959063ffad15bac1a3dcf34f9d
+  Siesta: c7195fc65376360c76a27ce7bb64e0f1ce099a20
 
-PODFILE CHECKSUM: 25bdd22375e0130a1e565d55a363b4c7269065db
+PODFILE CHECKSUM: e767197e3d6212335ff0a1787e74899cce4efc96
 
 COCOAPODS: 1.1.1
