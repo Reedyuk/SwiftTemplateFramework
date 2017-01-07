@@ -6,7 +6,7 @@ inhibit_all_warnings!
 
 def required_pods
 
-pod 'Siesta/UI', '= 1.0-rc.3'
+pod 'Siesta/UI'
 
 end
 
