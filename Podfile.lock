@@ -1,14 +1,23 @@
 PODS:
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (3.0.0):
+    - CocoaLumberjack/Extensions
   - Siesta/Core (1.0.1)
   - Siesta/UI (1.0.1):
     - Siesta/Core
 
 DEPENDENCIES:
+  - CocoaLumberjack/Swift
   - Siesta/UI
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   Siesta: c7195fc65376360c76a27ce7bb64e0f1ce099a20
 
-PODFILE CHECKSUM: e767197e3d6212335ff0a1787e74899cce4efc96
+PODFILE CHECKSUM: 5922689923187ee9f2bc89d0c04857e0802c0014
 
 COCOAPODS: 1.1.1

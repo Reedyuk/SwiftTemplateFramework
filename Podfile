@@ -7,6 +7,7 @@ inhibit_all_warnings!
 def required_pods
 
 pod 'Siesta/UI'
+pod 'CocoaLumberjack/Swift'
 
 end
 

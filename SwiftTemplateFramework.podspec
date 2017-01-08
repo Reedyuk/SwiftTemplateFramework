@@ -11,5 +11,6 @@ Pod::Spec.new do |spec|
   spec.source = { git: "https://github.com/Reedyuk/SwiftTemplateFramework.git" }
   spec.source_files = "SwiftTemplateFramework/**/*.{h,swift}"
 
-  spec.dependency 'Siesta/UI', '= 1.0-rc.3'
+  spec.dependency 'Siesta/UI'
+  spec.dependency 'CocoaLumberjack/Swift'
 end
