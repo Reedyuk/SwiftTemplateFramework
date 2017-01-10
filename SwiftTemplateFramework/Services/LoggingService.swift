@@ -13,9 +13,23 @@ import CocoaLumberjack
 /// Class we use for logging!
 public class LoggingService {
     public static let sharedInstance = LoggingService()   ///singleton
+    private let fileLogger: DDFileLogger = DDFileLogger() // File Logger
 
     /// Constructor to setup key etc.
     init() {
+        DDLog.add(DDTTYLogger.sharedInstance()) // TTY = Xcode console
+        DDLog.add(DDASLLogger.sharedInstance()) // ASL = Apple System Logs
+        DDTTYLogger.sharedInstance().colorsEnabled = true
+    }
+
+    public func enableFileLogging() {
+        fileLogger.doNotReuseLogFiles = true
+        fileLogger.logFileManager.maximumNumberOfLogFiles = 7
+        DDLog.add(fileLogger)
+    }
+
+    public func getFileLogLocation() -> String {
+        return fileLogger.currentLogFileInfo.filePath
     }
 
     /// The method to initialise the logging service
