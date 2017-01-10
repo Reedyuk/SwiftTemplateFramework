@@ -190,10 +190,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000B2B6A1E194B8E003FFE74 /* Build configuration list for PBXNativeTarget "SwiftTemplateFrameworkTests" */;
 			buildPhases = (
+				000B2B951E1A5729003FFE74 /* Test Fix */,
 				000B2B581E194B8E003FFE74 /* Sources */,
 				000B2B591E194B8E003FFE74 /* Frameworks */,
 				000B2B5A1E194B8E003FFE74 /* Resources */,
-				000B2B951E1A5729003FFE74 /* Test Fix */,
 			);
 			buildRules = (
 			);
