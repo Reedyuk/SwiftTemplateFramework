@@ -33,6 +33,7 @@ public class NetworkRequestAdapter: ResourceObserver {
         //#if DEBUG
         LogCategory.enabled = LogCategory.all
         //#endif
+        LoggingService.sharedInstance.initialise()
         setupTransformers()
     }
 

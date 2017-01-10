@@ -33,7 +33,7 @@ public class LoggingService {
     }
 
     /// The method to initialise the logging service
-    public func initialise(appDelegateWindow: UIWindow?) {
+    public func initialise() {
         let originalLogger = Siesta.logger
         Siesta.logger = { category, message in
             originalLogger(category, message)
